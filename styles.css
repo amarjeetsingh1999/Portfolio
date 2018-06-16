@@ -1,0 +1,178 @@
+/*
+_
+_
+_____HEADER
+_
+_
+*/
+
+.udacity_logo{
+    width: 60%;
+    margin: 10%;
+    padding: 5%;
+}
+
+.header_info{
+    margin: 5px;
+
+}
+
+.name{
+    font-size: 50px;
+    font-family: 'Poor Story', cursive;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+ }
+
+ nav{
+     margin-bottom: 2%;
+ }
+
+ .header_end{
+     height: 2px;
+     width: 100%;
+     background-color: #7d97ad;
+ }
+
+
+ /*
+ _
+ _
+ _____MAIN
+ _
+ _
+ */
+
+h3{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 2vw;
+}
+
+h2{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 3vw;
+}
+
+.project_link{
+    font-size: 3vmin;
+}
+
+.featured_first, .featured_second, .featured_third{
+    width: 18rem;
+}
+
+.card_img{
+    height: 95%;
+}
+
+.featured{
+    text-align: center;
+}
+
+.featured_heading{
+    margin-top: 5%;
+}
+
+/*
+_
+_
+_____FOOTER
+_
+_
+*/
+
+#footer{
+    margin-top: 5%;
+}
+
+.icon{
+    margin: 1%;
+}
+
+/*
+_
+_
+_____PARALLAX
+_
+_
+*/
+
+.parallax_top{ 
+    /* The image used */
+    background: url("img/main_top.gif");
+    height: 100%; 
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_bottom{ 
+    /* The image used */
+    background: url("img/main_bottom.gif");
+    height: 100%; 
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_vcenter{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*
+_
+_
+_____TYPEWRITER
+_
+_
+*/
+
+.typewriter_text{
+    padding-top: 300px;
+    padding-bottom: 400px;
+    font-family: 'Poor Story', cursive;
+    font-size: 4vw;
+  }
+
+.typewrite{
+    color:#4e342e;
+}
+
+
+/*
+_
+_
+_____RESPONSIVE
+_
+_
+*/
+
+/* Parallax */
+
+/* Header */
+@media only screen and (max-width: 370px){
+    .name, .alias{
+        font-size: 5vw;
+    }
+    .udacity_logo{
+        width: 40%;
+    }
+    .header_info{
+        margin-top: 20px;
+    }
+}
+
+/* Footer */
+@media only screen and (max-width: 315px){
+    .footer-copyright{
+        font-size: 4vmin;
+    }
+}
