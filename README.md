@@ -1,5 +1,8 @@
 # Portfolio
 
+## Overview
+A functioning responsive portfolio website complete with images, text descriptions and links.
+
 ## Web Development Technologies used:
 * HTML
 * CSS
